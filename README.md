@@ -21,7 +21,7 @@
 ## 下载与安装
 
 1. 打开项目的 [GitHub Releases](https://github.com/Estellalee/twilight-timer/releases/latest) 页面。
-2. 在 Assets 中下载 `暮光计时.zip`。
+2. 在 Assets 中下载 `twilight-timer-v1.5.0.zip`。
 3. 双击 ZIP 解压，将 `暮光计时.app` 拖入 macOS 的“应用程序”文件夹。
 4. 第一次启动时，右键点击 `暮光计时.app`，选择“打开”，然后在系统提示中再次选择“打开”。
 5. 如果 macOS 仍然阻止启动，请前往“系统设置 → 隐私与安全性”，在对应提示旁点击“仍要打开”。

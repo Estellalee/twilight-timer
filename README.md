@@ -18,6 +18,17 @@
 - 当前构建脚本生成 Apple Silicon (`arm64`) 版本
 - Intel Mac 需要后续 Universal (`arm64 + x86_64`) 构建
 
+## 下载与安装
+
+1. 打开项目的 [GitHub Releases](https://github.com/Estellalee/twilight-timer/releases/latest) 页面。
+2. 在 Assets 中下载 `暮光计时.zip`。
+3. 双击 ZIP 解压，将 `暮光计时.app` 拖入 macOS 的“应用程序”文件夹。
+4. 第一次启动时，右键点击 `暮光计时.app`，选择“打开”，然后在系统提示中再次选择“打开”。
+5. 如果 macOS 仍然阻止启动，请前往“系统设置 → 隐私与安全性”，在对应提示旁点击“仍要打开”。
+6. App 首次申请通知权限时选择“允许”，以便在倒计时结束时显示系统通知。
+
+当前 Release 是 Apple Silicon 测试版本，使用临时签名且尚未经过 Apple 公证。请只从本项目的 GitHub Releases 页面下载安装。
+
 ## 运行
 
 在 macOS 上进入本目录执行：
@@ -48,4 +59,4 @@ Orange Free Sounds, licensed under CC BY 4.0: <https://creativecommons.org/licen
 
 ## 发布说明
 
-源码仓库不包含 `.build`、应用包和压缩包。构建产物可以放在 GitHub Releases 中供用户下载。
+源码仓库不包含 `.build`、应用包和压缩包。可安装版本通过 GitHub Releases 提供。

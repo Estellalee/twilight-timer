@@ -1,0 +1,27 @@
+.build/
+.swiftpm/
+DerivedData/
+.DS_Store
+*.xcuserstate
+xcuserdata/
+*.dSYM/
+
+# Local environment and signing credentials
+.env
+.env.*
+*.p12
+*.cer
+*.mobileprovision
+AuthKey_*.p8
+
+# Generated application bundles and archives
+暮光计时.app/
+暮光计时.zip
+*.dmg
+
+# Deprecated generated audio candidates
+内置铃声候选/
+generate_candidate_sounds.py
+
+# Local archives and exported artifacts
+旧版本归档/

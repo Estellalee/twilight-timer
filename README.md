@@ -1,0 +1,51 @@
+# 暮光计时
+
+一个现代 macOS SwiftUI 倒计时器，采用浅色暮光风格，支持多窗口、常用计时、自定义提示音、内置提示音、试听、音量、循环计时、系统通知和快捷键。
+
+## 功能
+
+- 精确到秒的自定义倒计时
+- 每个窗口独立的倒计时、标题和提醒声音
+- 内置提示音下拉选择，也可以选择本地音频
+- 常用计时的添加、载入和删除
+- 自动开始下一轮和系统通知开关
+- 倒计时完成状态与声音播放提示
+- 空格开始/暂停，`⌘R` 重置
+
+## 系统要求
+
+- macOS 13.0 或更高版本
+- 当前构建脚本生成 Apple Silicon (`arm64`) 版本
+- Intel Mac 需要后续 Universal (`arm64 + x86_64`) 构建
+
+## 运行
+
+在 macOS 上进入本目录执行：
+
+```bash
+swift run
+```
+
+也可以在 Xcode 中打开 `Package.swift` 运行。
+
+## 生成 App
+
+更新 Xcode 或 Command Line Tools 后，在本目录执行：
+
+```bash
+chmod +x build-app.sh
+./build-app.sh
+open "暮光计时.app"
+```
+
+## 音频授权
+
+内置音频来自项目中的 `内置铃声确认` 目录。`01_Warm-groovy-109-bpm-funk-loop.wav` 附带 CC BY 4.0 授权说明，发布或再分发时请保留对应鸣谢信息：
+
+Orange Free Sounds, licensed under CC BY 4.0: <https://creativecommons.org/licenses/by/4.0/>
+
+其余音频也应在公开发布前确认拥有可再分发和商业使用的授权。
+
+## 发布说明
+
+源码仓库不包含 `.build`、应用包和压缩包。构建产物可以放在 GitHub Releases 中供用户下载。

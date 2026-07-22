@@ -22,6 +22,7 @@ AuthKey_*.p8
 # Deprecated generated audio candidates
 内置铃声候选/
 generate_candidate_sounds.py
+docs/assets/*.svg.png
 
 # Local archives and exported artifacts
 旧版本归档/

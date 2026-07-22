@@ -6,9 +6,19 @@
 
 暮光计时是一款面向 macOS 的轻量倒计时工具。它把精确到秒的计时、柔和的暮光视觉、内置提示音和常用节奏放在同一个安静、专注的窗口里。
 
-![暮光计时产品界面截图](assets/twilight-timer-interface.png)
+### 准备开始
 
-> 产品图为当前版本在 macOS 上的真实窗口截图。
+![暮光计时准备开始界面](assets/twilight-timer-interface_1.png)
+
+### 专注进行中
+
+![暮光计时专注进行中界面](assets/twilight-timer-interface_2.png)
+
+### 倒计时完成
+
+![暮光计时倒计时完成界面](assets/twilight-timer-interface_3.png)
+
+> 以上产品图均为当前版本在 macOS 上的真实窗口截图。
 
 ## 适合谁
 
